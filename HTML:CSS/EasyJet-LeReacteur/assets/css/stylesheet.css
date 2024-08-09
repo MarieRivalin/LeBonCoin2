@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "easyJet Rounded Book";
+  src: url("../fonts/easyJetRoundedBook.eot");
+  src: url("../fonts/easyJetRoundedBook.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/easyJetRoundedBook.woff2") format("woff2"),
+    url("../fonts/easyJetRoundedBook.woff") format("woff"),
+    url("../fonts/easyJetRoundedBook.ttf") format("truetype"),
+    url("../fonts/easyJetRoundedBook.svg#easyJetRoundedBook") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "easyJet Generation Headline";
+  src: url("../fonts/easyJetGenerationHeadline.eot");
+  src: url("../fonts/easyJetGenerationHeadline.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/easyJetGenerationHeadline.woff2") format("woff2"),
+    url("../fonts/easyJetGenerationHeadline.woff") format("woff"),
+    url("../fonts/easyJetGenerationHeadline.ttf") format("truetype"),
+    url("../fonts/easyJetGenerationHeadline.svg#easyJetGenerationHeadline")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

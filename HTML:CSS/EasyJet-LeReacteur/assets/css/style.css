@@ -1,0 +1,418 @@
+*,
+a,
+footer {
+  font-family: easyJet Rounded Book, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+header {
+  background-image: url("../imgs/headbar.gif");
+  background-size: cover;
+  height: 60px;
+  font-size: 16px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header button {
+  padding: 7px 10px;
+  background-color: white;
+  color: #f60;
+  border: none;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.signup-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beach-section {
+  margin-bottom: 20px;
+  position: relative;
+}
+.beach-section img {
+  width: 100vw;
+  height: 650px;
+  object-fit: cover;
+}
+
+.beach-absolute {
+  position: absolute;
+  top: 20px;
+  height: 430px;
+  width: 100vw;
+}
+
+.bookingmenu-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.left-column {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.left-column-title {
+  font-size: 50px;
+  font-family: easyJet Generation Headline, sans-serif;
+}
+.left-column > div p:nth-child(2) {
+  font-size: 50px;
+}
+.left-column button {
+  padding: 10px 30px;
+  background-color: #f60;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 2px;
+  align-self: flex-start;
+}
+
+.beach-white-absolute {
+  position: absolute;
+  bottom: 0px;
+  height: 130px;
+  width: 100vw;
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+.container-white-bar {
+  height: 100%;
+  padding: 10px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.offers button {
+  padding: 10px 30px;
+  background-color: #f70;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.worldwide-default {
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px #bbb;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.worldwide-default > div {
+  padding: 10px;
+}
+
+.worldwide-default p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.worldwide-default button {
+  background-color: #f70;
+  border: none;
+  padding: 8px 30px;
+  color: white;
+  border-radius: 2px;
+  align-self: flex-end;
+}
+
+.worldwide img {
+  width: 640px;
+  height: 250px;
+  object-fit: cover;
+  object-position: right top;
+  display: block;
+}
+.worldwide2 img {
+  width: 640px;
+  height: 305px;
+  object-fit: cover;
+  object-position: right top;
+  display: block;
+}
+
+.worldwide-default > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.triple-imgs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.carrousel-section {
+  height: 380px;
+
+  margin-bottom: 20px;
+  display: flex;
+  overflow: scroll;
+  gap: 20px;
+}
+.carrousel-card {
+  height: 370px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow: 0 0 5px #bbb;
+}
+.carrousel-card img {
+  height: 140px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carrousel-card > div {
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.carrousel-card button {
+  position: absolute;
+  bottom: 15px;
+  background-color: #f60;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 8px 30px;
+  border: none;
+}
+
+.bottom-carrousel {
+  /*border: 1px solid blue;*/
+  margin-bottom: 50px;
+}
+
+.bottom-carrousel h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.bottom-carrousel > menu {
+  /* border: 1px solid green;*/
+  display: flex;
+  overflow: scroll;
+  gap: 20px;
+}
+.bottom-carrousel div {
+  height: 145px;
+  width: 145px;
+  padding: 20px;
+  /* border: 1px solid red;*/
+  border-radius: 10px;
+  background-color: #333;
+  color: white;
+  flex-shrink: 0;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom-carrousel div:hover {
+  background-color: #f60;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 60px;
+  align-self: center;
+}
+/* Triple imgs */
+.triple-imgs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.triple-imgs > div {
+  position: relative;
+}
+
+.triple-imgs-absolute {
+  position: absolute;
+  top: 0px;
+  height: 220px;
+  width: 285px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.triple-imgs-absolute h4 {
+  font-size: 30px;
+}
+
+.triple-imgs-absolute p {
+  font-size: 20px;
+}
+
+.triple-imgs img {
+  display: block;
+  height: 220px;
+  width: 285px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #bbb;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+
+.footer-div {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-div p {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.footer-div li {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.phone-display {
+  display: none;
+}
+
+.white-icon {
+  color: white;
+}
+
+@media (max-width: 1115px) {
+  .hidden-1115 {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .worldwide-default {
+    flex-direction: column;
+    /* border: 3px solid red; */
+    width: 630px;
+  }
+  .triple-imgs {
+    width: 630px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .triple-imgs > div:nth-child(3) {
+    width: 100%;
+  }
+  .triple-imgs > div:nth-child(3) img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  .padding-960 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 670px) {
+  .phone-display {
+    display: inline;
+  }
+  .hidden-670 {
+    display: none;
+  }
+
+  .bookingmenu-container {
+    justify-content: center;
+  }
+  .visibility-hidden {
+    visibility: hidden;
+  }
+  .beach-section {
+    background-color: #f2f2f2;
+  }
+  .beach-white-absolute {
+    background-color: white;
+  }
+  .worldwide-default {
+    width: 300px;
+  }
+  .triple-imgs {
+    width: auto;
+    overflow: scroll;
+    gap: 20px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 20px;
+  }
+  .triple-imgs > div:nth-child(3) {
+    width: auto;
+  }
+  .triple-imgs > div:nth-child(3) img {
+    width: 285px;
+  }
+  .footer-div {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+}
