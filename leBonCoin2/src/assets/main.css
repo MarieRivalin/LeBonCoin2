@@ -1,0 +1,6 @@
+@import './base.css';
+.container {
+  width: 1055px;
+  margin: 0 auto;
+  height: 100%;
+}
