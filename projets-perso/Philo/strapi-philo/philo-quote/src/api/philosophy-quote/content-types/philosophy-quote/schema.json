@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "philosophy_quotes",
+  "info": {
+    "singularName": "philosophy-quote",
+    "pluralName": "philosophy-quotes",
+    "displayName": "Citations",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Citation": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Auteur": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "citations": {
+      "type": "json"
+    }
+  }
+}
